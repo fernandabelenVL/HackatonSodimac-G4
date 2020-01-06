@@ -1,12 +1,19 @@
 import React from "react";
 import "./App.css";
+import NavBar from "./Components/NavBar";
+import CategoryBar from "./Components/CategoryBar";
+import Order from "./Components/Order";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p> Tracking de despacho de productos y servicios</p>
-      </header>
+      <div className="header">
+        <NavBar />
+        <CategoryBar />
+      </div>
+      <div className="Check">
+        <Order />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,51 @@
+* {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.top {
+  margin: auto;
+}
+
+.left {
+  margin-left: 0px;
+  float: left !important;
+}
+
+.m-left {
+  margin-left: 4px;
+}
+
+.m-right {
+  margin-right: 5px;
+}
+
+.font-size-11 {
+  font-size: 11px;
+}
+
+.separator {
+  margin-left: 5%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.top-bar {
+  width: 100%;
+  margin-top: 0px;
+  float: left;
+  position: relative;
+  margin-bottom: 17px;
+  background: #f0f0f0;
+}
+
+.phone-section {
+  width: 100%;
+  padding-left: 0px;
+}

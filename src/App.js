@@ -2,9 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import SingleTracking from "./Components/SingleTracking";
+import ProductsList from './Components/ProductsList.js'
 import NavBar from "./Components/NavBar";
 import CategoryBar from "./Components/CategoryBar";
 import Order from "./Components/Order";
+
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
               <li>
                 <Link to="/singletracking">Single Tracking</Link>
               </li>
+               <li>
+              <Link to="/ProductsList">ProductsList</Link>
+            </li>
             </ul>
           </nav>
 
@@ -39,11 +44,17 @@ function App() {
             <Route path="/singletracking">
               <SingleTracking />
             </Route>
+     <Route path="/ProductsList">
+            <ProductsList />
+          </Route>
           </Switch>
         </div>
       </Router>
     </div>
   );
 }
+
+
+
 
 export default App;

@@ -32,6 +32,8 @@ class ProductsList extends React.Component {
     <td>{product.status}</td>
     <td>{product.details} <a href="">+</a> </td>
 
+
+
   </tr>
 
         	)

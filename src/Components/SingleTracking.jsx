@@ -72,7 +72,9 @@ export default function SingleTracking() {
               <b>Productos:</b>
               {/* Producto 1 */}
               <div>
-                <img src={"src/assets/img/produ1.jpeg"} alt="Product" />
+                 <div className="ima-box">
+                     <img className="product-ima" src={"https://sodimac.scene7.com/is/image/SodimacCL/1172867_01?$producto495$&id=SWlnr1&fmt=jpg&fit=constrain,1&wid=493&hei=493"} alt="Product" />
+                 </div>
               </div>
             </Col>
           </Row>

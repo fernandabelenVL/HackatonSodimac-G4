@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import SingleOrder from "./SingleOrder"
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { Button, Form } from "react-bootstrap";
 
 class Home extends Component {
+
   render() {
     return (
       <section className="">
@@ -32,7 +34,7 @@ class Home extends Component {
               </Form.Text>
             </Form.Group>
 
-            <Link to="">
+            <Link to="/singleorder">
               <Button className="btn-order" variant="danger">
                 {" "}
                 Consultar estado de orden{" "}

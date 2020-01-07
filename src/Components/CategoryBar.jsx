@@ -5,6 +5,7 @@ class CategoryBar extends Component {
   render() {
     return (
       <nav className="category-bar">
+        <hr />
         <ul>
           <li className="navbar-options">
             <a href="blank">CONSTRUCCIÓN Y REPARACIÓN</a>

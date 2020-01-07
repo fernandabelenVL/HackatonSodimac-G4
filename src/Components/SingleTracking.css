@@ -1,12 +1,15 @@
-.ima-box{
-   height: 100%;
-   width: 120px;
-   border: 1px solid #000;
-   overflow: hidden;
-   text-align: center; 
-   margin-top: 10px;
-}
-
-.product-ima {
-max-width: 110px;}
-
+.indexedStep {
+   color: white;
+   width: 20px;
+   height: 20px;
+   font-size: 12px;
+   background-color: rgba(211, 211, 211, 0.8);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .indexedStep.accomplished {
+   background-color: rgba(0, 116, 217, 1);
+ }

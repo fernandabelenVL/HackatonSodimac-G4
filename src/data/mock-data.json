@@ -1,44 +1,26 @@
 {
-   "orders" : 
-			{  
-				"id": "01",
-				"order_number": "12345678912",
-				"client": 
-					{
-						"name": "Camila Figueroa Salas",
-						"email": "c.figueroa@gmail.com",
-						"adress": "Dirección de Despacho", 
-						"receptor": "Nombre del receptor",
-						"dispatch_cost": "Costo de envío",
-						"observations": "Observaciones de envío"
-					}
-				,
-				"sale_info": 
-					{
-						"reception_date": "dsadsa",
-						"dispatch_time": "9 a 22 hrs",
-						"payment_method": "Tarjeta",
-						"fees": "10",
-						"payment_date": "28/12/2019",
-						"total_price": "$78.000"
-					}
-				,
-				"products": 
-				   {
-				   "product_1": {
-						"image": "https://sodimac.scene7.com/is/image/SodimacCL/363261X_01?$producto495$&id=t_Vm93&fmt=jpg&fit=constrain,1&wid=493&hei=493",
-						"sku": "363261-X",
-						"sell_date": "2019/01/01",
-						"order_number": "12345",
-						"delivery_type": "Despacho",
-						"invoce_number": "12345",
-						"price": "1200",
-						"status": "Active",
-						"details": "Nothing"
-
-				   }
-				   }
-				
+    "products" : [
+			{
+				"image": "imagen01",
+				"sell_date": "2019/08/16",
+				"order_number": "12814954492",
+				"invoce_number": "12345",
+				"price": "1200",
+				"status": "Despacho en Ruta",
+				"details": ""
+			},
+			{
+				"image": "imagen02",
+				"sell_date": "2019/01/01",
+				"order_number": "1232433243245",
+				"invoce_number": "12345",
+				"price": "1200",
+				"status": "Active",
+				"details": ""
 			}
-	
+		
+    ]
 }
+
+
+

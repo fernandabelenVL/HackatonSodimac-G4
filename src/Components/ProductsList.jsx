@@ -11,7 +11,6 @@ class ProductsList extends React.Component {
   render() {
   	return (
   	
-  	
       <Table bordered hover>
       
       
@@ -52,6 +51,7 @@ class ProductsList extends React.Component {
           </tr>
       </tbody>
     </Table>
+
   	)
   }
 }

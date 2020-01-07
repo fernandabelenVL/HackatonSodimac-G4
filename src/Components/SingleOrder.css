@@ -10,3 +10,6 @@
 .product-ima {
 max-width: 110px;}
 
+.grey-bg {
+   background-color: rgba(0,0,0,.05);
+}

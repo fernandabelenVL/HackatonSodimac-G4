@@ -30,7 +30,7 @@ class ProductsList extends React.Component {
     <td>{product.invoce_number}</td>
     <td>{product.price}</td>
     <td>{product.status}</td>
-    <td>{product.details}</td>
+    <td>{product.details} <a href="">+</a> </td>
 
   </tr>
 

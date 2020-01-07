@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SingleOrder from "./SingleOrder"
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { Button, Form } from "react-bootstrap";

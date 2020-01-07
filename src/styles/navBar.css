@@ -1,0 +1,58 @@
+button {
+    border: 0;
+}
+.p-15 {
+    margin-right: 20px;
+}
+
+.p-20 {
+    margin-right: 20px;
+}
+.brand-section {
+    margin-top: -1%;
+    width:100%;
+    float: left;
+}
+.brands-bar {
+    margin-top: -2%;
+    margin-right: 67%;
+}
+.main-logo {
+margin-left: -19%;
+}
+
+.navbar {
+    font-size: 12px;
+}
+
+.search-box {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    padding: 8px 0 9px 12px;
+    width: 45%;
+}
+
+.right-section {
+    margin-top: -3%;
+    margin-right: -70%;
+}
+
+.gps-icon {
+    width: 1%;
+}
+
+.shopping-icon, .user-icon {
+    width: 1.5%;
+}
+
+.counter {
+    font-size: 13px;
+    border-radius: 18px;
+    text-align: center;
+    background: #dd0021;
+    color: white;
+}
+
+.counter:hover {
+    background: #0079d7;
+}

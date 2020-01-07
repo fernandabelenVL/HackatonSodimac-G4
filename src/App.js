@@ -9,6 +9,7 @@ import CategoryBar from "./Components/CategoryBar";
 import SatisfactionClients from "./Components/SatisfactionClients";
 import SingleOrder from "./Components/SingleOrder";
 
+
 function App() {
   return (
     <div className="App">

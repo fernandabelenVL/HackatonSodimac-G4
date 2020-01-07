@@ -1,3 +1,36 @@
+.tittle {
+  margin-left: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.titleHeader {
+  margin-right: 3px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+form {
+  border: 1px solid gainsboro;
+  margin-left: 50px;
+}
+
 .formOne {
-  background: #bbb;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#form-controlOne {
+  width: 80%;
 }

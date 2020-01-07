@@ -7,7 +7,7 @@ import ProductsList from "./Components/ProductsList";
 import NavBar from "./Components/NavBar";
 import CategoryBar from "./Components/CategoryBar";
 import SatisfactionClients from "./Components/SatisfactionClients";
-import SingleOrder from "./Components/SingleOrder"
+import SingleOrder from "./Components/SingleOrder";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           </nav>
           <Switch>
             <Route exact path="/">
-            <Home/>
+              <Home />
             </Route>
             <Route path="/singletracking">
               <SingleTracking />

@@ -1,0 +1,11 @@
+.ima-box{
+   height: 100%;
+   width: 120px;
+   border: 1px solid #000;
+   overflow: hidden;
+   text-align: center; 
+   margin-top: 10px;
+}
+
+.product-ima {
+max-width: 110px;}

@@ -7,6 +7,7 @@ import ProductsList from "./Components/ProductsList";
 import NavBar from "./Components/NavBar";
 import CategoryBar from "./Components/CategoryBar";
 import SatisfactionClients from "./Components/SatisfactionClients";
+import SingleOrder from "./Components/SingleOrder"
 
 function App() {
   return (
@@ -18,28 +19,20 @@ function App() {
               <NavBar />
               <CategoryBar />
             </div>
-            <div className="Check">
-              <Home />
-              <Link to="/"></Link>
-            </div>
           </div>
         </header>
         <div>
           <nav>
             <ul>
               <li>
-                <Link to="/SingleTracking">Single Tracking</Link>
-              </li>
-              <li>
-                <Link to="/ProductsList">ProductsList</Link>
-              </li>
-              <li>
-                <Link to="/SatisfactionClients">SatisfactionClients</Link>
+                <Link to="/">Home</Link>
               </li>
             </ul>
           </nav>
           <Switch>
-            <Route exact path="/" />
+            <Route exact path="/">
+            <Home/>
+            </Route>
             <Route path="/singletracking">
               <SingleTracking />
             </Route>
@@ -48,6 +41,9 @@ function App() {
             </Route>
             <Route path="/SatisfactionClients">
               <SatisfactionClients />
+            </Route>
+            <Route path="/singleorder">
+              <SingleOrder />
             </Route>
           </Switch>
         </div>

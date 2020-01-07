@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductsListCSS from '../Components/ProductsList.css';
+import '../Components/ProductsList.css';
 import data from '../data/mock-data'
 
 

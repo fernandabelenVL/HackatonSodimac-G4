@@ -63,7 +63,7 @@ nav ul {
   padding-top: 1%;
 }
 
-.bt-burger{
+.bt-desp{
   display: none;
 }
 
@@ -100,13 +100,13 @@ nav ul {
     float:none;
   }
 
-  .bt-burger, .burger2{
+  .bt-desp, .bt-desp2{
     display: block;
     width: 100%;
     background:#ccc;
   }
 
-  .burger-button, .bt-burger, .burger2{
+  .burger-button, .bt-desp, .bt-desp2{
     display: block;
     padding: 20px;
     background: #024959; 

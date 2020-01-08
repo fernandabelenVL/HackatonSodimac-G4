@@ -11,18 +11,20 @@ class NavBar extends Component {
       <section className="main-header">
         <div className="brand-section">
           <p className="navbar">
-            <img
-              src="https://i.ibb.co/s52v14w/logosodimac.png"
-              alt="logosodimac"
-              className="logo"
+            <a href="./">
+              {" "}
+              <img
+                src="https://i.ibb.co/s52v14w/logosodimac.png"
+                alt="logosodimac"
+                className="logo"
               />
+            </a>
             <span className="p-15"></span>
             <input
               className="search-box"
               placeholder="¿Qué estás buscando?"
               name="Ntt"
             ></input>
-
             <img className="gps-icon" src={gps} alt="location"></img>
             CERRILLOS
             <span className="p-20"></span>
@@ -38,7 +40,6 @@ class NavBar extends Component {
             <img className="user-icon" src={user} alt="user"></img>
             Mi cuenta
           </p>
-
         </div>
       </section>
     );

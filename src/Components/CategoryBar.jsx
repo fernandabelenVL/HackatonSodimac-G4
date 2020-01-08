@@ -41,6 +41,7 @@ class CategoryBar extends Component {
             <a href="blank">SERVICIOS HOGAR</a>
           </li>
         </ul>
+        <hr />
       </nav>
     );
   }

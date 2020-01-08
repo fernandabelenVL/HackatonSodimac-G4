@@ -1,11 +1,13 @@
 .category-bar {
   margin-top: 15px;
+
 }
 
 .category-bar ul {
   list-style: none;
   position: relative;
   float: left;
+
 }
 
 .category-bar ul a {
@@ -18,13 +20,15 @@
   cursor: pointer;
   display: flex;
   font-size: 10px;
-  justify-content: space-around;
   line-height: inherit;
-  padding: 8px 10px;
+  padding: 4px 10px;
   text-align: center;
   text-transform: uppercase;
   transition: all ease 0.2s;
   flex-grow: 2;
+  justify-content: space-around;
+   margin-left: 10px;
+
 }
 
 .category-bar ul li {
@@ -34,6 +38,8 @@
   float: left;
   margin-right: 40px;
   padding: 0;
+  
+
 }
 
 .category-bar ul ul {
@@ -43,8 +49,71 @@
   left: 0;
   background: #fff;
   padding: 0;
+
+
 }
 
 .category-bar ul ul li {
   width: 100px;
 }
+
+/*añadidos
+nav ul {
+  overflow: hidden;
+  padding-top: 1%;
+}
+
+.bt-burger{
+  display: none;
+}
+
+.burger-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .8);
+  display: block;
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
+  font-size: 50px;
+
+}
+
+@media screen and (max-width: 800px){
+  
+  .category-bar ul ul li a{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    display: block;
+  }
+
+  .burger-button{
+    display: block;
+    float:none;
+  }
+
+  .bt-burger, .burger2{
+    display: block;
+    width: 100%;
+    background:#ccc;
+  }
+
+  .burger-button, .bt-burger, .burger2{
+    display: block;
+    padding: 20px;
+    background: #024959; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+}
+fin añadidos*/

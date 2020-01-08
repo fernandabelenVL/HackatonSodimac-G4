@@ -4,8 +4,15 @@ import "./categoryBar.css";
 class CategoryBar extends Component {
   render() {
     return (
-      <nav className="category-bar">
+
+
+        <nav className="category-bar">
         <hr />
+
+          <div class='bt-desp'>
+        <a href='#' className='burger-button'><span className='bt-desp2'>Menú Desplegable</span></a>
+         </div>
+
         <ul>
           <li className="navbar-options">
             <a href="blank">CONSTRUCCIÓN Y REPARACIÓN</a>
@@ -35,13 +42,14 @@ class CategoryBar extends Component {
             <a href="blank">AUTOMÓVIL</a>
           </li>
           <li className="navbar-options">
-            <a href="blank">PROYECTOS E INSPIRACIÓNa</a>
+            <a href="blank">PROYECTOS E INSPIRACIÓN</a>
           </li>
           <li className="navbar-options">
             <a href="blank">SERVICIOS HOGAR</a>
           </li>
         </ul>
       </nav>
+   
     );
   }
 }

@@ -31,8 +31,8 @@ export default class SingleOrder extends Component {
       <div>
          <Container>
             <SingleClientData/>
-            <ProductList/>
             <SingleTracking/>
+            <ProductList/>
             <SatisfactionClients/> 
          </Container>
       </div>

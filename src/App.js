@@ -9,7 +9,6 @@ import CategoryBar from "./Components/CategoryBar";
 import SatisfactionClients from "./Components/SatisfactionClients";
 import SingleOrder from "./Components/SingleOrder";
 
-
 function App() {
   return (
     <div className="App">
@@ -26,7 +25,7 @@ function App() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/"> Home </Link>
               </li>
             </ul>
           </nav>

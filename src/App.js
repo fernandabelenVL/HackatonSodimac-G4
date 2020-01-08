@@ -22,13 +22,6 @@ function App() {
           </div>
         </header>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/"> Home </Link>
-              </li>
-            </ul>
-          </nav>
           <Switch>
             <Route exact path="/">
               <Home />

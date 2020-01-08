@@ -11,7 +11,7 @@ class CategoryBar extends Component {
         <hr />
 
         <div class='bt-desp'>
-        <a href='#' className='burger-button'><span className='bt-desp2'>Menú Desplegable</span></a>
+        <a href='/' className='burger-button'><span className='bt-desp2'></span></a>
 
         <ul>
      

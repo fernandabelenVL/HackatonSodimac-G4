@@ -33,20 +33,20 @@ function getSteps() {
 function getStepContent(step) {
    switch (step) {
       case 0:
-         return "Siguiente...";
+         return "Tu orden a sido recibida por el sistema";
       case 1:
-         return "Sigue sigue...";
+         return "Tu compra se encuentra en proceso de confirmación.";
       case 2:
-         return "Terminadooo";
+         return "¡Tu compra ha sido confirmada! Estamos preparando tus productos para enviarlos a despacho";
       case 3:
-         return "Terminadooo";
+         return "Hemos preparado tu orden, ahora estamos gestionando el despacho a tu dirección. ";
       case 4:
-         return "Terminadooo";
+         return "¡Tus productos están en ruta hacia la dirección de despacho!";
       case 5:
-         return "Terminadooo";
+         return "Orden en proceso de entrega";
 
       default:
-         return "Paso Desconocido";
+         return "Orden de despacho finalizada";
    }
 }
 
@@ -69,9 +69,13 @@ export default function CustomizedSteppers() {
 
    return (
       <div className={classes.root}>
+      <b>Información de seguimiento</b>
          <Stepper alternativeLabel activeStep={activeStep}>
             {steps.map((label) => (
-               <Step key={label}>
+               <Step key={label} onClick={handleNext}
+                     
+               >
+      
                   <StepLabel>{label}</StepLabel>
                </Step>
             ))}
@@ -80,13 +84,14 @@ export default function CustomizedSteppers() {
             {activeStep === steps.length ? (
                <div>
                   <Typography className={classes.instructions}>
-                     Proceso terminado
+                     Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción
                   </Typography>
                   <Button onClick={handleReset} className={classes.button}>
                      Reset
                   </Button>
                </div>
-            ) : (
+            ) 
+            : (
                <div>
                   <Typography className={classes.instructions}>
                      {getStepContent(activeStep)}
@@ -109,7 +114,8 @@ export default function CustomizedSteppers() {
                      </Button>
                   </div>
                </div>
-            )}
+            )
+            }
          </div>
       </div>
    );

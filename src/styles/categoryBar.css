@@ -1,0 +1,43 @@
+.category-bar{
+	margin-top:15px
+}
+
+.category-bar ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+.category-bar ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+.category-bar ul li{
+    text-align: center;
+    position:relative;
+    width: 6%;
+    float:left;
+	margin-right:35px;
+	padding:0
+}
+
+.category-bar ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+.category-bar ul ul li{
+	width:200px
+}

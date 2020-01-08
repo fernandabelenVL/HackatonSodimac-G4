@@ -50,7 +50,11 @@ class CategoryBar extends Component {
           </li>
          
         </ul>
+
  </div>
+
+        <hr />
+
       </nav>
     
     );

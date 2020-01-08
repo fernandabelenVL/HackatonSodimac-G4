@@ -70,6 +70,10 @@ export default class SingleClientData extends Component {
                 <p>
                   Total compra: <span>$369.960</span>
                 </p>
+                <p>
+                  Boleta: <span>Ver Boleta</span>
+                </p>
+
               </Col>
             </Row>
    

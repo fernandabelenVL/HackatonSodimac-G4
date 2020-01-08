@@ -10,8 +10,9 @@ import Table from 'react-bootstrap/Table'
 class ProductsList extends React.Component {
   render() {
   	return (
-  	
-      <Table bordered hover>
+  	<div>
+  	<b>Productos de la orden</b>
+  	      <Table bordered hover>
       
       
       <thead>
@@ -51,6 +52,8 @@ class ProductsList extends React.Component {
           </tr>
       </tbody>
     </Table>
+
+  	</div>
 
   	)
   }

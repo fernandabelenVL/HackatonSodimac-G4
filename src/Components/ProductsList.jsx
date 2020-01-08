@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/mock-data'
+// import data from '../data/mock-data'
 
 //CSS
 import "./ProductsList.css";
@@ -47,7 +47,7 @@ class ProductsList extends React.Component {
           {/* Producto */}<td>Quitasol Petroleo 2x3 Mt Home Collection Garden</td>
           {/* Unidades */}<td>2</td>
           {/* Precio */}<td>$99.980</td>
-          {/* Boleta */}<td><a href="/singleorder">Ver Detalles</a></td>
+          {/* Boleta */}<td><a href="https://www.sodimac.cl/sodimac-cl/product/3567532/Quitasol-Petroleo-2x3-Mt/3567532" target="_blank" rel="noopener noreferrer">Ver Detalles</a></td>
           </tr>
       </tbody>
     </Table>

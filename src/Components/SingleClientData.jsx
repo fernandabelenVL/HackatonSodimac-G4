@@ -68,7 +68,7 @@ export default class SingleClientData extends Component {
                   Fecha de Pago: <span>28/12/2019</span>
                 </p>
                 <p>
-                  Total compra: <span>$369.960</span>
+                  Total compra: <span>$129.990</span>
                 </p>
                 <p>
                   Boleta: <span>Ver Boleta</span>

@@ -1,10 +1,23 @@
-.tittle {
-  margin-left: 50px;
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.login-panel .title {
+  padding: 1.5em 0;
 }
 
+.login-panel .title>b {
+  font-size: 20px;
+}
+
+.title b {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.title p {
+font-size: 12px;
+}
+
+b {
+  font-weight: 700;
+}
 #title-one {
   font-size: 16px;
   font-weight: bold;
@@ -14,37 +27,39 @@ p {
   font-size: 14px;
 }
 
-.text-P {
-  margin-left: 50px;
+.search-form {
+  background-color: #e5e4e4;
+  padding: 29px 23px 26px;
 }
 
-.titleHeader {
-  margin-right: 3px;
-  display: block;
-  padding-bottom: 10px;
+.login-form {
+  border: 1px solid #f0f0f0;
 }
 
-form {
-
-  margin-left: 50px;
-  padding: 10px;
-
+.header-login-form {
+  font-size: 17px;
+  padding: 29px 13px 14px;
+  text-align: left;
+}
+.header-login-form a {
+font-size: 12px;
+margin-top: 10px;
 }
 
-.formOne {
-  margin-top: 20px;
-  padding-bottom: 10px;
+.login-cont{
+  padding: 13px 13px 26px;
 }
 
-#form-controlOne {
-  width: 80%;
+.login-cont input {
+  border: 1px solid #e6e8ed;  
+  border-radius: 0;
 }
 
-.buttonsform {
-  margin: 10%;
-  padding-right: 10%;
+.login-input{
+  padding: 13px;
 }
 
-.numberOrder {
-  background: rgb(206, 206, 206);
-}
+.forgot-pass {
+  margin-top: -10px !important;
+  margin-bottom: 11px;
+  }

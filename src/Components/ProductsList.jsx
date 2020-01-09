@@ -32,7 +32,7 @@ class ProductsList extends React.Component {
           {/* Producto */}<td>Combo Piscina 427x84 cm + bomba 530 gl Bestway</td>
           {/* Unidades */}<td>1</td>
           {/* Precio */}<td>$129.990</td>
-          {/* Boleta */}<td><a href="/singleorder">Ver Detalles</a></td>
+          {/* Boleta */}<td><a href="https://www.sodimac.cl/sodimac-cl/product/363261X/combo-piscina-427x84-cm-+-bomba-530-gl" target="_blank" rel="noopener noreferrer">Ver Detalles</a></td>
         </tr>
         {/* <tr>
           <td className="grey-bg">228450-2</td>

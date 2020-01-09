@@ -1,14 +1,14 @@
-.trackingBar-box{
+.trackingBar-box {
   padding: 24px 0;
   margin-bottom: 30px;
 }
 
 .MuiStepIcon-root.MuiStepIcon-completed {
-  color: #0072CE !important;
+  color: #0072ce !important;
 }
 
 .MuiStepIcon-root.MuiStepIcon-active {
-  color: #DD0021 !important;
+  color: #dd0021 !important;
 }
 
 .makeStyles-instructions-3 {

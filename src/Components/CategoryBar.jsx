@@ -4,8 +4,11 @@ import "./categoryBar.css";
 class CategoryBar extends Component {
   render() {
     return (
-      <nav className="category-bar">
-        <hr />
+     
+         
+
+        <nav className="category-bar">
+
 
         <div class="bt-desp">
           <a href="/" className="burger-button">

@@ -1,6 +1,16 @@
 .category-bar {
-  margin-top: 15px;
-
+    align-items: stretch;
+    background-color: #FFF;
+    border-bottom: #F0F0F0 solid 2px;
+    color: #000;
+    display: flex;
+    height: 63px;
+    transition: all ease 0.2s;
+    width: 100%;
+    z-index: 2000;
+    z-index: 9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .category-bar ul {

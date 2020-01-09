@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
 import SingleTracking from "./Components/SingleTracking";
@@ -13,14 +13,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <header className="App-header">
+        {/* <header className="App-header">
           <div className="App">
             <div className="header">
               <NavBar />
               <CategoryBar />
             </div>
           </div>
-        </header>
+        </header> */}
         <div>
           <Switch>
             <Route exact path="/">

@@ -1,11 +1,19 @@
 * {
   list-style: none;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+*, dl, label, ol, p, ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
-  color: #4d4d4d;
+}
+
+p {
+  font-weight: 400;
 }
 .top {
   margin: auto;
@@ -50,3 +58,102 @@ a {
   padding-left: 0px;
 }
 
+.btn, .btn-facebook, .btn-gray, .btn-null, .btn-red, .btn-white {
+  display: inline-block !important;
+  padding: 8px 30px !important;
+  border: 1px solid #dd0021 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  border-radius: 0 !important;
+  font-size: 13px !important;
+  text-align: center !important;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.btn-white {
+  color: #dd0021 !important;
+  background: white;
+}
+
+.btn-white:hover{
+  background: #ea1333;
+  color: white !important;
+}
+
+.btn-red {
+ background: #dd0021 !important;
+ color: white !important;
+}
+
+.btn-red:hover {
+  background: #ea1333 !important;
+  color: white !important;
+}
+
+.option-text {
+  width: 80px;
+  font-size: 10px;
+}
+
+.caja-header {
+  background-color: #f9f9f8;
+  /*background: rgb(229,229,229);
+background: linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(245,245,245,1) 100%);*/
+}
+
+.caja-header .bannerHeader {
+  width: 100%;
+  max-width: 1150px;
+  min-height: 40px !important;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .caja-header .bannerHeader {
+      min-height: 54px !important;
+  }
+}
+@media (max-width: 1199px){
+.navBar-options {
+    font-size: 10px !important;
+    padding: 12px 3px !important;
+}
+}
+
+@media (max-width: 1000px){
+.mobile-main-header {
+    display: block;
+    position: relative;
+    padding: 0 !important; 
+}
+}
+
+.container, .container-fluid {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@media (min-width: 1000px){
+.search-box {
+    margin-left: -50px !important;
+    /* margin-top: 4px; */
+}
+}
+
+@media (max-width: 1000px){
+.mobSeachBoxPo {
+    z-index: 1000;
+    position: static;
+    border: none !important;
+}}
+
+.login-panel .btn-red {
+  width: auto;
+}
+
+@media (max-width: 1000px){
+.login-panel .btn-red, .login-panel .btn-white, .recupera-clave .ft-list .inline-block-element, .recupera-clave .ft-list dd {
+    width: 100% !important;
+
+}}

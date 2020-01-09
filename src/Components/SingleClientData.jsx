@@ -35,7 +35,10 @@ export default class SingleClientData extends Component {
               <p>
                 Dirección de Despacho:{" "}
                 <span>
-                  Pedro de Valdivia 1234, Número 654, Nuñoa, Santiago de Chile
+
+                  Mariano Sánchez Fontecilla 310, Santiago, Las Condes, Región
+                  Metropolitana
+
                 </span>
               </p>
               <p>
@@ -81,9 +84,11 @@ export default class SingleClientData extends Component {
               </p>
               <p>
                 Boleta:{" "}
+
                 <a href="https://drive.google.com/file/d/1W4aIjhdHCGufua_TnfbltFjiXSZhwu69/view?usp=sharing">
                   Ver Boleta
                 </a>
+
               </p>
             </Col>
           </Row>

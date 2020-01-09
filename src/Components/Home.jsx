@@ -34,8 +34,8 @@ class Home extends Component {
                                  type='text'
                                  placeholder=' Ej:12345678901'
                                  required
-                                 minlength='11'
-                                 maxlength='11'
+                                 minLength='11'
+                                 maxLength='11'
                                  size='11'
                               />
                               <Form.Text className='text-muted'>
@@ -86,7 +86,7 @@ class Home extends Component {
                            <Form.Text className='text-muted forgot-pass' >
                                  <a href='/'>Olvidaste tu contraseña ?</a>
                            </Form.Text>
-                           <div ClassName='buttonsinform'>
+                           <div className='buttonsinform'>
                               <button type='button'className='btn btn-white'>
                                  Regístrate
                               </button>

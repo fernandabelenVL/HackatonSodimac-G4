@@ -8,6 +8,6 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Evaluations from './Components/Evaluations.js';
 
-ReactDOM.render(<Msgs />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // serviceWorker.unregister();

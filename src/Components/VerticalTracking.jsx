@@ -47,8 +47,8 @@ function getStepContent(step) {
    case 3:
       return "Hemos preparado tu orden, ahora estamos gestionando el despacho a tu dirección. ";
    case 4:
-      return "¡Tus productos están en ruta hacia la dirección de despacho!";
-   case 5:
+    return "¡Tus productos están en ruta hacia la dirección de despacho! Serán entregados por el camión de patente AFNA10 y llegará en unos pocos minutos.";
+    case 5:
       return "Orden en proceso de entrega";
    default:
       return "Orden de despacho finalizada";

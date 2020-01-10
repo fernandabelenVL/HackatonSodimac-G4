@@ -21,3 +21,21 @@
   margin-right: 8px;
   display: none !important;
 }
+
+.MuiStepIcon-text {
+  fill: #fff;
+  font-size: 1em !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+
+.tracking-desktop {
+display: block;
+}
+
+@media (max-width: 1000px){
+  .tracking-desktop {
+    display: none;
+  }
+}
+  

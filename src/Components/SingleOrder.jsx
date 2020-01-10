@@ -3,6 +3,7 @@ import SingleClientData from "./SingleClientData"
 import ProductList from "./ProductsList"
 import SingleTracking from "./SingleTracking"
 import SatisfactionClients from "./SatisfactionClients"
+import VerticalTracking from "./VerticalTracking"
 
 //data
 import data from '../data/mock-data'
@@ -30,9 +31,16 @@ export default class SingleOrder extends Component {
    return (
       <div>
          <Container>
-            <SingleClientData/>
-            <SingleTracking/>
+            <div className="information-box">
+               {/* Titulo del bloque: numero de orden */}
+               <h4>Información número de orden:</h4>
+               <b>123456789</b>
+               <br></br>
+            </div>
             <ProductList/>
+            <SingleTracking/>
+            <VerticalTracking/>
+            <SingleClientData/>
             <SatisfactionClients/> 
          </Container>
       </div>

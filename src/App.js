@@ -4,8 +4,8 @@ import "./App.css";
 import Home from "./Components/Home";
 import SingleTracking from "./Components/SingleTracking";
 import ProductsList from "./Components/ProductsList";
-import NavBar from "./Components/NavBar";
-import CategoryBar from "./Components/CategoryBar";
+// import NavBar from "./Components/NavBar";
+// import CategoryBar from "./Components/CategoryBar";
 import SatisfactionClients from "./Components/SatisfactionClients";
 import SingleOrder from "./Components/SingleOrder";
 

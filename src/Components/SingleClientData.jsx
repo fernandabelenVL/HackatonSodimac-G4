@@ -18,19 +18,15 @@ export default class SingleClientData extends Component {
     return (
       <div>
         <div>
-          {/* Titulo del bloque: numero de orden */}
-          <h3>Información número de orden: 123456789</h3>
-          <br></br>
-
           <Row>
             {/* Datos de persona que compró */}
             <Col xs={12} md={6}>
               <b>Datos de Envío</b>
               <p>
-                Nombre: <span>Carolina Herrera</span>
+                Nombre: <span>Nataly Riquelme</span>
               </p>
               <p>
-                Email: <span>correocliente@gmail.com</span>
+                Email: <span>nat.riquelme@gmail.com</span>
               </p>
               <p>
                 Dirección de Despacho:{" "}
@@ -40,13 +36,13 @@ export default class SingleClientData extends Component {
                 </span>
               </p>
               <p>
-                Nombre del receptor: <span>Carolina Herrera</span>
+                Nombre del receptor: <span>Nataly Riquelme</span>
               </p>
               <p>
-                Costo de envío: <span>$10.990</span>
+                Costo de envío: <span>$20.990</span>
               </p>
               <p>
-                Observaciones de envío: <span>-----</span>
+                Observaciones de envío: <span>Evento Laboratoria. Favor entregar en persona.</span>
               </p>
             </Col>
 
@@ -61,7 +57,7 @@ export default class SingleClientData extends Component {
                   id="start"
                   name="trip-start"
                   value="2020-01-10"
-                  min="2020-01-01"
+                  min="2020-01-12"
                   max="2020-12-31"
                 ></input>
               </p>
@@ -72,7 +68,7 @@ export default class SingleClientData extends Component {
                 Medio de Pago: <span>Tarjeta bancaria</span>
               </p>
               <p>
-                Nº de Cuotas: <span>6</span>
+                Nº de Cuotas: <span>1</span>
               </p>
               <p>
                 Fecha de Pago: <span>28/12/2019</span>

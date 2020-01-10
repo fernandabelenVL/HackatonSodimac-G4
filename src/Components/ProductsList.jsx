@@ -2,7 +2,6 @@ import React from "react";
 // import data from '../data/mock-data'
 
 //CSS
-import "./ProductsList.css";
 import Table from "react-bootstrap/Table";
 
 class ProductsList extends React.Component {
@@ -10,7 +9,7 @@ class ProductsList extends React.Component {
   	return (
   	<div>
   	<b>Productos de la compra</b>
-  	      <Table bordered hover>
+  	  <Table bordered hover className="desktop-table">
       
       
       <thead>
@@ -25,11 +24,11 @@ class ProductsList extends React.Component {
       </thead>
       <tbody>
         <tr>
-          {/* SKU */}<td className="grey-bg">363261-X</td>
+          {/* SKU */}<td className="grey-bg">363261-2</td>
           {/* Imagen */}<td className="ima-box"><img className="product-ima" alt="Producto" src="https://sodimac.scene7.com/is/image/SodimacCL/363261X_01?$producto495$&id=t_Vm93&fmt=jpg&fit=constrain,1&wid=493&hei=493"/></td>
-          {/* Producto */}<td>Combo Piscina 427x84 cm + bomba 530 gl Bestway</td>
+          {/* Producto */}<td>Cajita Meraki</td>
           {/* Unidades */}<td>1</td>
-          {/* Precio */}<td>$129.990</td>
+          {/* Precio */}<td>$20.990</td>
           {/* Boleta */}<td><a href="https://www.sodimac.cl/sodimac-cl/product/363261X/combo-piscina-427x84-cm-+-bomba-530-gl" target="_blank" rel="noopener noreferrer">Ver Detalles</a></td>
         </tr>
         {/* <tr>
@@ -51,6 +50,18 @@ class ProductsList extends React.Component {
           </tr> */}
           </tbody>
         </Table>
+        
+        <section className="mobile-products">
+          <div className="mobile-image-list">
+            <img className="product-ima" alt="Producto" src="https://sodimac.scene7.com/is/image/SodimacCL/363261X_01?$producto495$&id=t_Vm93&fmt=jpg&fit=constrain,1&wid=493&hei=493"/>
+          </div>
+          <div className="mobile-info-product producto">
+                    <p class="brand">Meraki Technology</p>
+                    <h3 class="product">Cajita Meraki</h3>
+                    <p class="sku">Código: 310449-4</p>
+          </div>
+        
+        </section>
       </div>
     );
   }

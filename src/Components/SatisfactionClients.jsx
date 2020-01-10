@@ -8,7 +8,6 @@ class SatisfactionClients extends Component {
     return (
     
       <section className="stars">
-        <Form>
           <h4>
             ¿Como evaluaría su satisfacción respecto al servicio entregado?
           </h4>
@@ -18,15 +17,15 @@ class SatisfactionClients extends Component {
             <form className="stars" action="">
 
               <input className="star star-5" id="star-5" type="radio" name="star"/>
-              <label className="star star-5" for="star-5"></label>
+              <label className="star star-5" htmlFor="star-5"></label>
               <input className="star star-4" id="star-4" type="radio" name="star"/>
-              <label className="star star-4" for="star-4"></label>
+              <label className="star star-4" htmlFor="star-4"></label>
               <input className="star star-3" id="star-3" type="radio" name="star"/>
-              <label className="star star-3" for="star-3"></label>
+              <label className="star star-3" htmlFor="star-3"></label>
               <input className="star star-2" id="star-2" type="radio" name="star"/>
-              <label className="star star-2" for="star-2"></label>
+              <label className="star star-2" htmlFor="star-2"></label>
               <input className="star star-1" id="star-1" type="radio" name="star"/>
-              <label className="star star-1" for="star-1"></label>
+              <label className="star star-1" htmlFor="star-1"></label>
              </form>
 
           </Form.Group>
@@ -36,15 +35,15 @@ class SatisfactionClients extends Component {
 
             <form className="stars1" action="">
               <input className="star star-5" id="star-10" type="radio" name="star"/>
-              <label className="star star-5" for="star-10"></label>
+              <label className="star star-5" htmlFor="star-10"></label>
               <input className="star star-4" id="star-9" type="radio" name="star"/>
-              <label className="star star-4" for="star-9"></label>
+              <label className="star star-4" htmlFor="star-9"></label>
               <input className="star star-3" id="star-8" type="radio" name="star"/>
-              <label className="star star-3" for="star-8"></label>
+              <label className="star star-3" htmlFor="star-8"></label>
               <input className="star star-2" id="star-7" type="radio" name="star"/>
-              <label className="star star-2" for="star-7"></label>
+              <label className="star star-2" htmlFor="star-7"></label>
               <input className="star star-1" id="star-6" type="radio" name="star"/>
-              <label className="star star-1" for="star-6"></label>
+              <label className="star star-1" htmlFor="star-6"></label>
             </form>
 
           </Form.Group>
@@ -52,17 +51,17 @@ class SatisfactionClients extends Component {
           <Form.Group controlId="formBasics2">
             <Form.Label>Producto</Form.Label>
 
-            <form className="stars2" action="">
+            <form className="stars2">
                 <input className="star star-5" id="star-15" type="radio" name="star"/>
-                <label className="star star-5" for="star-15"></label>
+                <label className="star star-5" htmlFor="star-15"></label>
                 <input className="star star-4" id="star-14" type="radio" name="star"/>
-                <label className="star star-4" for="star-14"></label>
+                <label className="star star-4" htmlFor="star-14"></label>
                 <input className="star star-3" id="star-13" type="radio" name="star"/>
-                <label className="star star-3" for="star-13"></label>
+                <label className="star star-3" htmlFor="star-13"></label>
                 <input className="star star-2" id="star-12" type="radio" name="star"/>
-                <label className="star star-2" for="star-12"></label>
+                <label className="star star-2" htmlFor="star-12"></label>
                 <input className="star star-1" id="star-11" type="radio" name="star"/>
-                <label className="star star-1" for="star-11"></label>
+                <label className="star star-1" htmlFor="star-11"></label>
             </form>
             </Form.Group>
 
@@ -74,7 +73,6 @@ class SatisfactionClients extends Component {
           <Button variant="primary" type="submit">
             Enviar
           </Button>
-        </Form>
       </section>
     
     );

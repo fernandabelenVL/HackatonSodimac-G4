@@ -44,7 +44,6 @@ function getStepContent(step) {
          return "¡Tus productos están en ruta hacia la dirección de despacho!";
       case 5:
          return "Orden en proceso de entrega";
-
       default:
          return "Orden de despacho finalizada";
    }
@@ -68,7 +67,7 @@ export default function CustomizedSteppers() {
    };
 
    return (
-      <div className={classes.root}>
+      <div className="tracking-desktop" >
       <b>Información de seguimiento</b>
          <Stepper alternativeLabel activeStep={activeStep}>
             {steps.map((label) => (

@@ -122,7 +122,6 @@ background: linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(245,245,245,1) 10
 .mobile-main-header {
     display: block;
     position: relative;
-    padding: 0 !important; 
 }
 }
 

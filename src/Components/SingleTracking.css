@@ -15,6 +15,7 @@
   text-align: center;
   background: rgba(0, 0, 0, 0.05);
   padding: 20px;
+  margin-bottom: 30px !important;
 }
 /* botones de prev y next en barra de progreso*/
 .makeStyles-button-2 {

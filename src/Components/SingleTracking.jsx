@@ -83,7 +83,7 @@ export default function CustomizedSteppers() {
    };
 
    return (
-      <div className={classes.root}>
+      <div className="tracking-desktop" >
       <b>Información de seguimiento</b>
          <Stepper alternativeLabel activeStep={activeStep}>
             {steps.map((label) => (

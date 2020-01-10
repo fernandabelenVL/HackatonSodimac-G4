@@ -33,23 +33,38 @@ function getSteps() {
 
 function getStepContent(step) {
    switch (step) {
-      case 0:
-         return "Tu orden a sido recibida por el sistema";
       case 1:
-         return "Tu compra se encuentra en proceso de confirmación.";
+         return "Compra confirmada";
       case 2:
-         return "¡Tu compra ha sido confirmada! Estamos preparando tus productos para enviarlos a despacho";
+         return "Nathaly se ha preparado tu orden, estamos gestionando el despacho";
       case 3:
-         return "Hemos preparado tu orden, ahora estamos gestionando el despacho a tu dirección. ";
+         return "Tu pedido está listo para ser despachado";
       case 4:
          return "¡Tus productos están en ruta hacia la dirección de despacho! Serán entregados por el camión de patente AFNA10 y llegará en unos pocos minutos.";
       case 5:
-         return "Orden en proceso de entrega";
+         return "Despacho entregado, Por favor evalúa nuestro servicios";
+      case 6:
+         return "Gracias por preferirnos";
+
       default:
-         return "Orden de despacho finalizada";
+         return "Gracias por preferirnos";
    }
 }
 
+function sendMessage(message) {
+   let messageJSON = {
+           to: '+56975138673',
+           body: message
+         }
+   fetch('/api/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(messageJSON)
+    })
+   .then(res => res.json())
+}
 export default function CustomizedSteppers() {
    const classes = useStyles();
    const [activeStep, setActiveStep] = React.useState(1);
@@ -57,6 +72,7 @@ export default function CustomizedSteppers() {
 
    const handleNext = () => {
       setActiveStep((prevActiveStep) => prevActiveStep + 1);
+      sendMessage(getStepContent(activeStep));
    };
 
    const handleBack = () => {

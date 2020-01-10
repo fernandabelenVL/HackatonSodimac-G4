@@ -5,6 +5,7 @@ import Step from "@material-ui/core/Step";
 import StepLabel from "@material-ui/core/StepLabel";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import SatisfactionClients from "./SatisfactionClients"
 
 const useStyles = makeStyles((theme) => ({
    root: {
@@ -84,6 +85,8 @@ export default function CustomizedSteppers() {
                <div>
                   <Typography className={classes.instructions}>
                      Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción
+                     <SatisfactionClients/> 
+
                   </Typography>
                   <Button onClick={handleReset} className={classes.button}>
                      Reset

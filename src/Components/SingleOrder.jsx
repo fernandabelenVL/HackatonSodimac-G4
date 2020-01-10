@@ -43,7 +43,6 @@ export default class SingleOrder extends Component {
             <VerticalTracking/>
             <SingleClientData/>
             <AccordionInformation/>
-            <SatisfactionClients/> 
          </Container>
       </div>
    );

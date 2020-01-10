@@ -7,6 +7,7 @@ import StepContent from '@material-ui/core/StepContent';
 // import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import SatisfactionClients from "./SatisfactionClients"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -97,7 +98,10 @@ export default function VerticalTracker() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} className={classes.resetContainer}>
-          <Typography>Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción</Typography>
+          <Typography>Despacho entregado, te invitamos a realizar nuestra encuesta de satisfacción
+          <SatisfactionClients/> 
+
+          </Typography>
           {/* <Button onClick={handleReset} className={classes.button}>
             Reset
           </Button> */}

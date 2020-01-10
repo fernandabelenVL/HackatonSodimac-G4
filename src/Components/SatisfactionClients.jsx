@@ -7,14 +7,14 @@ class SatisfactionClients extends Component {
   render() {
     return (
     
-      <section className="stars">
+      <section className="evaluation-box">
           <h4>
             ¿Como evaluaría su satisfacción respecto al servicio entregado?
           </h4>
 
           <Form.Group controlId="formBasic">
             <Form.Label>Envío</Form.Label>
-            <form className="stars" action="">
+            <form className="stars">
 
               <input className="star star-5" id="star-5" type="radio" name="star"/>
               <label className="star star-5" htmlFor="star-5"></label>
@@ -66,7 +66,7 @@ class SatisfactionClients extends Component {
             </Form.Group>
 
 
-          <Form.Group controlId="exampleForm.ControlTextarea1">
+          <Form.Group controlId="exampleForm.ControlTextarea1" className="section-comment">
             <Form.Label>Muchas gracias. ¿Le gustaría agregar algo?</Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>

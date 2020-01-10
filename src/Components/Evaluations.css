@@ -124,3 +124,36 @@ label.star:before {
 
 
 }
+.evaluation-box {
+width: 70%;
+margin: auto;
+margin-top: 30px;
+}
+
+.evaluation-box .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-comment {
+    display: flex;
+    flex-direction: column !important;
+}
+
+@media (max-width: 1000px){
+  .evaluation-box {
+    width: 100% !important;
+    margin: auto;
+    margin-top: 30px;
+    font-size: small;
+  }  
+  label.star {
+    font-size: 16px ;
+}
+  
+  }
+  
+  

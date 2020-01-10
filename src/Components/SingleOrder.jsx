@@ -4,6 +4,7 @@ import ProductList from "./ProductsList"
 import SingleTracking from "./SingleTracking"
 import SatisfactionClients from "./SatisfactionClients"
 import VerticalTracking from "./VerticalTracking"
+import AccordionInformation from "./AccordionInformation"
 
 //data
 import data from '../data/mock-data'
@@ -41,6 +42,7 @@ export default class SingleOrder extends Component {
             <SingleTracking/>
             <VerticalTracking/>
             <SingleClientData/>
+            <AccordionInformation/>
             <SatisfactionClients/> 
          </Container>
       </div>

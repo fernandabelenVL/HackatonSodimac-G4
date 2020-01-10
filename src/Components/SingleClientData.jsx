@@ -16,42 +16,33 @@ export default class SingleClientData extends Component {
 
   render() {
     return (
-      <div>
+      <div className="client-data-desktop">
         <div>
           <Row>
             {/* Datos de persona que compró */}
             <Col xs={12} md={6}>
-              <b>Datos de Envío</b>
-              <p>
-                Nombre: <span>Nataly Riquelme</span>
-              </p>
-              <p>
-                Email: <span>nat.riquelme@gmail.com</span>
-              </p>
-              <p>
-                Dirección de Despacho:{" "}
-                <span>
-                  Mariano Sánchez Fontecilla 310, Santiago, Las Condes, Región
+              <p className="accordion-title">Datos de Envío</p>
+              <p className="bold-title">Nombre: <span className="normal-text">Nataly Riquelme</span></p>
+              <p className="bold-title">Email: <span className="normal-text">nat.riquelme@gmail.com</span></p>
+              <p className="bold-title"> Dirección de Despacho:<span className="normal-text">
+                  <br></br>Mariano Sánchez Fontecilla 310, Santiago, Las Condes, Región
                   Metropolitana
-                </span>
+                </span></p>
+              <p className="bold-title">
+                Nombre del receptor: <span className="normal-text">Nataly Riquelme</span>
               </p>
-              <p>
-                Nombre del receptor: <span>Nataly Riquelme</span>
+              <p className="bold-title">
+                Costo de envío: <span className="normal-text">$20.990</span>
               </p>
-              <p>
-                Costo de envío: <span>$20.990</span>
-              </p>
-              <p>
-                Observaciones de envío: <span>Evento Laboratoria. Favor entregar en persona.</span>
+              <p className="bold-title">
+                Observaciones de envío: <span className="normal-text">Evento Laboratoria. Favor entregar en persona.</span>
               </p>
             </Col>
 
             {/* Datos de despacho */}
             <Col xs={12} md={6}>
-              <b>Información de tu orden</b>
-              <p>
-                {" "}
-                Fecha de recepción:{" "}
+              <p className="accordion-title">Información de tu orden</p>
+              <p className="bold-title">Fecha de recepción:&nbsp;
                 <input
                   type="date"
                   id="start"
@@ -60,25 +51,26 @@ export default class SingleClientData extends Component {
                   min="2020-01-12"
                   max="2020-12-31"
                 ></input>
+                <p className="text-muted">Solo puedes cambiar la fecha de entrega dos días antes de la fecha límite</p>
               </p>
-              <p>
-                Hora despacho: <span>9 a 22 horas</span>
+              <p className="bold-title">
+                Hora despacho: <span className="normal-text">9 a 22 horas</span>
               </p>
-              <p>
-                Medio de Pago: <span>Tarjeta bancaria</span>
+              <p className="bold-title">
+                Medio de Pago: <span className="normal-text">Tarjeta bancaria</span>
               </p>
-              <p>
-                Nº de Cuotas: <span>1</span>
+              <p className="bold-title">
+                Nº de Cuotas: <span className="normal-text">1</span>
               </p>
-              <p>
-                Fecha de Pago: <span>28/12/2019</span>
+              <p className="bold-title">
+                Fecha de Pago: <span className="normal-text">28/12/2019</span>
               </p>
-              <p>
-                Total compra: <span>$129.990</span>
+              <p className="bold-title">
+                Total compra: <span className="normal-text">$129.990</span>
               </p>
-              <p>
-                Boleta:{" "}
-                <a href="https://drive.google.com/file/d/1W4aIjhdHCGufua_TnfbltFjiXSZhwu69/view?usp=sharing">
+              <p className="bold-title">
+                Boleta:&nbsp;
+                <a  className="normal-text" href="https://drive.google.com/file/d/1W4aIjhdHCGufua_TnfbltFjiXSZhwu69/view?usp=sharing">
                   Ver Boleta
                 </a>
               </p>

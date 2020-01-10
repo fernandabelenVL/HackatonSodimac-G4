@@ -119,6 +119,17 @@ font-family: "Lato", sans-serif !important;
 display: none;
 }
 
+.accordion-info {
+   display: none;
+}
+
+.accordion-title {
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 12px;
+}
+   
+
 @media (max-width: 1000px){
    .mobile-main-header {
        display: block;
@@ -131,6 +142,13 @@ display: none;
    .vertical-tracking {
    display: block;
    }
+   .accordion-info {
+      display: block;
+   }
+   .client-data-desktop {
+   display: none;
+   }
+   
 }
 
 .makeStyles-resetContainer-141 {
@@ -138,4 +156,24 @@ display: none;
    background: #0000000a !important; 
 }
 
+.bold-title {
+font-weight: 700;
+line-height: 20px;
+}
+
+.normal-text {
+font-weight: 400;
+}
    
+input[type=date], input[type=datetime-local], input[type=month], input[type=time] {
+   -webkit-appearance: menulist !important;
+}
+
+.makeStyles-heading-151 {
+   flex-basis: 100% !important;
+   font-weight: 600 !important;
+}
+
+.MuiExpansionPanelSummary-root {
+   margin: 10px 0 0 0 !important;
+}

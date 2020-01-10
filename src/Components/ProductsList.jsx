@@ -25,7 +25,7 @@ class ProductsList extends React.Component {
       <tbody>
         <tr>
           {/* SKU */}<td className="grey-bg">363261-2</td>
-          {/* Imagen */}<td className="ima-box"><img className="product-ima" alt="Producto" src="https://sodimac.scene7.com/is/image/SodimacCL/363261X_01?$producto495$&id=t_Vm93&fmt=jpg&fit=constrain,1&wid=493&hei=493"/></td>
+          {/* Imagen */}<td className="ima-box"><img className="product-ima" src="https://i.ibb.co/drgyDDs/meraki-box.png" alt="meraki-box"/></td>
           {/* Producto */}<td>Cajita Meraki</td>
           {/* Unidades */}<td>1</td>
           {/* Precio */}<td>$20.990</td>
@@ -53,7 +53,7 @@ class ProductsList extends React.Component {
         
         <section className="mobile-products">
           <div className="mobile-image-list">
-            <img className="product-ima" alt="Producto" src="https://sodimac.scene7.com/is/image/SodimacCL/363261X_01?$producto495$&id=t_Vm93&fmt=jpg&fit=constrain,1&wid=493&hei=493"/>
+            <img className="product-ima" alt="Producto" src="https://i.ibb.co/drgyDDs/meraki-box.png"/>
           </div>
           <div className="mobile-info-product producto">
                     <p class="brand">Meraki Technology</p>
